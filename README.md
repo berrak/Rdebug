@@ -11,11 +11,11 @@
 
 As in many similar debugging frameworks, the `Rdebug library` defines different `debug levels`. Turn the serial monitor debugging output `On` and `Off` with a simple `#define`.
 
+The heart of the library is the hierarchy. Set the log level to `WARN`, then the `lower` groups are also included. In this case, it enables `ON`, `DEBUG`, and `INFO`.
+
 ```
 ON < DEBUG < INFO < WARN < ERROR
 ```
-
-The heart of the library is the hierarchy. Set the log level to `WARN`, then the `lower` groups are also included. In this case, it enables `ON`, `DEBUG`, and `INFO`.
 
 Set the level to the highest level, i.e., `ERROR` during development, and reduce it once the code is released.
 
