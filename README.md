@@ -78,3 +78,5 @@ Thanks to `Ralph S Bacon` for his enjoyable [YT channel](https://www.youtube.com
 # References
 Ralph's repository and his original [debugging](https://github.com/RalphBacon/224-Superior-Serial.print-statements) implementation.
 
+If you focus on tracing and trying to figure out where your code crashed, look at [ArduinoTrace](https://github.com/bblanchon/ArduinoTrace), but it all depends on the objective and how severe the problem is. 
+
