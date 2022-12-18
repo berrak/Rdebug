@@ -76,5 +76,5 @@ Experiment with different debug levels to include or exclude the above debug sta
 Thanks to `Ralph S Bacon` for his enjoyable [YT channel](https://www.youtube.com/@RalphBacon) with many valuable tips and hints related to microcontrollers, coding, and everything related to the Arduino echo system.
 
 # References
-Ralph's information to his original [superior debugging](https://github.com/RalphBacon/224-Superior-Serial.print-statements) repository.
+Ralph's repository and his original [debugging](https://github.com/RalphBacon/224-Superior-Serial.print-statements) implementation.
 
