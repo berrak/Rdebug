@@ -9,7 +9,7 @@
 
 # A handy library to smash out Arduino bugs
 
-As in many similar debugging frameworks, the `Rdebug library` defines different `debug levels`. So with a simple `#define`, you can turn the `On` and `Off` serial monitor output for these statements.
+As in many similar debugging frameworks, the `Rdebug library` defines different `debug levels`. Turn the serial monitor debugging output `On` and `Off` with a simple `#define`.
 
 ```
 ON < DEBUG < INFO < WARN < ERROR
