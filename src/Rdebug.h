@@ -13,7 +13,8 @@
  *
  */
 
-#pragma once
+#ifndef RDEBUG_H_
+#define RDEBUG_H_
 
 // User picks debugging level from this list in the Arduino sketch
 //
@@ -29,6 +30,9 @@
 // Then include the libray
 // #include <Rdebug.h>
 
+// Pre-processor - Do not include definitions multiple times
+//#ifndef traceStamp
+
 void debugNothing(...) {
     // This does nothing and will be zapped by the compiler
 }
@@ -39,7 +43,7 @@ bool traceStampRequired = true;
 String debugStr = "";
 bool foundNL = false;
 
-// The tracestamp looks like [D][mainfunction:45]
+// The tracestamp looks like [xxx][mainfunction:45]
 #define traceStamp(x, y, z)                                                    \
     if (traceStampRequired) {                                                  \
         Serial.print("[");                                                     \
@@ -57,6 +61,8 @@ bool foundNL = false;
         traceStampRequired = true;                                             \
     else                                                                       \
         traceStampRequired = false;
+
+//#endif
 
 // Silence any screen output from the debug* macros!
 #if defined(DEBUGLEVEL_OFF)
@@ -129,5 +135,7 @@ bool foundNL = false;
 #define debug(x) Serial.print(x);
 #define debugln(x) Serial.println(x);
 #endif
+
+#endif /* RDEBUG_H_ */
 
 /* EOF */

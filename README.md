@@ -72,7 +72,7 @@ Then include the header file:
 # Run the example code
 Experiment with different debug levels to include or exclude the above debug statements with the sketch `Rdebug.ino` in the examples folder.
 
-## Credits.
+# Credits.
 Thanks to `Ralph S Bacon` for his enjoyable [YT channel](https://www.youtube.com/@RalphBacon) with many valuable tips and hints related to microcontrollers, coding, and everything related to the Arduino echo system.
 
 # References
