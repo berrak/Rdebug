@@ -7,7 +7,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/berrak/Rdebug.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/Rdebug/issues)
 ![Badge Hit Counter](https://visitor-badge.laobi.icu/badge?page_id=berrak_Rdebug)
 
-# A handy library to smash out Arduino bugs.
+# A handy library to smash out Arduino bugs
 
 As in many similar debugging frameworks, the `Rdebug library` defines different `debug levels`. So with a simple `#define`, you can turn the `On` and `Off` serial monitor output for these statements.
 
@@ -72,7 +72,7 @@ Then include the header file:
 # Run the example code
 Experiment with different debug levels to include or exclude the above debug statements with the sketch `Rdebug.ino` in the examples folder.
 
-# Credits.
+# Credits
 Thanks to `Ralph S Bacon` for his enjoyable [YT channel](https://www.youtube.com/@RalphBacon) with many valuable tips and hints related to microcontrollers, coding, and everything related to the Arduino echo system.
 
 # References
