@@ -30,9 +30,6 @@
 // Then include the libray
 // #include <Rdebug.h>
 
-// Pre-processor - Do not include definitions multiple times
-//#ifndef traceStamp
-
 void debugNothing(...) {
     // This does nothing and will be zapped by the compiler
 }
@@ -61,8 +58,6 @@ bool foundNL = false;
         traceStampRequired = true;                                             \
     else                                                                       \
         traceStampRequired = false;
-
-//#endif
 
 // Silence any screen output from the debug* macros!
 #if defined(DEBUGLEVEL_OFF)
