@@ -81,6 +81,8 @@ bool foundNL = false;
 #define debuglnE(x) // Or here
 #endif
 
+// Four macros that turns simple (one string)
+// Serial.println statements with trace
 #if defined(DEBUGLEVEL_WARN)
 #define DEBUGLEVEL_INFO
 #define DEBUGLEVEL_DEBUG
@@ -110,8 +112,6 @@ bool foundNL = false;
 #define debuglnI(x) // Or here
 #endif
 
-// This is a macro that turns simple (one string)
-// Serial.println statements with trace
 #if defined(DEBUGLEVEL_DEBUG)
 #define DEBUGLEVEL_ON
 #define debugD(x)                                                              \
