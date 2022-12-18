@@ -1,0 +1,18 @@
+# Rdebug
+# Note: Only ONE true tab-char to separate items!
+# Syntax Coloring Map
+
+# Datatypes: (KEYWORD1)
+# Classes & Namespaces: (KEYWORD2)
+# Methods and Functions: (KEYWORD2)
+# Structure: (KEYWORD3)
+# Constants: (LITERAL1)
+
+Rdebug	KEYWORD2
+
+DEBUGLEVEL_OFF	LITERAL1
+DEBUGLEVEL_ON	LITERAL1
+DEBUGLEVEL_DEBUG	LITERAL1
+DEBUGLEVEL_INFO	LITERAL1
+DEBUGLEVEL_WARN	LITERAL1
+DEBUGLEVEL_ERROR	LITERAL1
