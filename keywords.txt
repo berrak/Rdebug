@@ -2,11 +2,10 @@
 # Note: Only ONE true tab-char to separate items!
 # Syntax Coloring Map
 
-# Datatypes: (KEYWORD1)
-# Classes & Namespaces: (KEYWORD2)
-# Methods and Functions: (KEYWORD2)
-# Structure: (KEYWORD3)
-# Constants: (LITERAL1)
+# KEYWORD1: Datatypes
+# KEYWORD2: Classes, Namespaces, Methods, and Functions
+# KEYWORD3: Structure
+# LITERAL1: Constants
 
 Rdebug	KEYWORD2
 
