@@ -1,11 +1,11 @@
 /*
- * File: Rdebug.cpp
+ * File: Rdebug.h
  * The Arduino library provides a unique form of debugging.
  *
  * Copyright (c) 2021 Ralph Bacon
  *
  * Adapted and modified original code.
- * Copyright (C) 2022 Debinix Team
+ * Copyright (c) 2022 Debinix Team
  * https://github.com/berrak/Rdebug
  *
  * The MIT License
